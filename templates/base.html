@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIIMS CRE</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+        }
+        #navbar {
+            width: 250px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow-y: auto;
+            border-right: 1px solid #ddd;
+        }
+        #navbar a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #eee;
+        }
+        #navbar a:hover {
+            background-color: #ddd;
+        }
+        #content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        {{navbar}}
+    </div>
+    <div id="content">
+        {{content}}
+    </div>
+</body>
+</html>
