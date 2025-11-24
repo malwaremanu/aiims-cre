@@ -1,3 +1,5 @@
+["Check Details"](https://www.perplexity.ai/search/give-aiims-cre-psychiatric-soc-oXKnSRKOTReBrXlNMCHuXg#2)
+
 ## AIIMS CRE Psychiatric Social Worker: Complete Preparation Guide
 
 ### Exam Pattern & Syllabus
