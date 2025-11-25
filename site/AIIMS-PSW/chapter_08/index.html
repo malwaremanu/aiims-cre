@@ -1,0 +1,1955 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../chapter_07/">
+      
+      
+        <link rel="next" href="../chapter_09/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 8: Grammar Essentials - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-8-grammar-essentials" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 8: Grammar Essentials
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Welcome to My Docs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../chapter_01/" class="md-tabs__link">
+          
+  
+  
+  AIIMS PSW
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to My Docs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AIIMS PSW
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AIIMS PSW
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1: Introduction to AIIMS CRE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2: Exam Pattern, Marking Scheme &amp; Preparation Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Analogies &amp; Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4: Series (Number, Alphabet, Figure)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: Space Visualization &amp; Non-verbal Reasoning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6: Judgment, Decision Making &amp; Problem Solving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7: Analytical &amp; Logical Reasoning Practice Sets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Grammar Essentials
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Grammar Essentials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exam-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exam Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-theory-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detailed Theory / Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Detailed Theory / Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-grammar-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Grammar Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-eight-parts-of-speech" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Eight Parts of Speech
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sentence-structure-the-building-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sentence Structure: The Building Blocks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#three-key-grammar-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Three Key Grammar Rules
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Three Key Grammar Rules">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-subject-verb-agreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Subject-Verb Agreement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-correct-verb-tenses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Correct Verb Tenses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-articles-a-an-the" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Articles (A, An, The)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aiims-cre-oriented-tips-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AIIMS CRE-Oriented Tips &amp; Tricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-mcqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice MCQs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#answer-key-with-explanations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Answer Key with Explanations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-summary-key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Summary (Key Takeaways)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9: Vocabulary Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10: Usage Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 11: Reading Comprehension Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 12: Introduction to Social Welfare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 13: Social Policy, Social Security &amp; Human Rights
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Professional Social Work
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 15: Methods of Social Work
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 16: Psychology – Definitions &amp; Fields
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 17: Mental Health – Concepts &amp; Characteristics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_18/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 18: Normal vs. Abnormal Behaviour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Human Development Stages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 20: Personality Theories &amp; Defence Mechanisms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 21: Attitudes, Prejudice &amp; Discrimination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 22: Communication, Propaganda &amp; Mass Media
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Public Opinion, Crowd Behaviour &amp; Social Influence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 24: Society – Structure &amp; Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 25: Social Groups &amp; Social Institutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 26: Culture, Norms, Values &amp; Socialization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Social Processes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_28/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Full-Length Practice Test – 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 29: Full-Length Practice Test – 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 30: Full-Length Practice Test – 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exam-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exam Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-theory-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detailed Theory / Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Detailed Theory / Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-grammar-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Grammar Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-eight-parts-of-speech" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Eight Parts of Speech
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sentence-structure-the-building-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sentence Structure: The Building Blocks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#three-key-grammar-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Three Key Grammar Rules
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Three Key Grammar Rules">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-subject-verb-agreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Subject-Verb Agreement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-correct-verb-tenses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Correct Verb Tenses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-articles-a-an-the" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Articles (A, An, The)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aiims-cre-oriented-tips-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AIIMS CRE-Oriented Tips &amp; Tricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-mcqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice MCQs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#answer-key-with-explanations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Answer Key with Explanations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-summary-key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Summary (Key Takeaways)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-8-grammar-essentials"><strong>Chapter 8: Grammar Essentials</strong></h1>
+<h2 id="learning-objectives"><strong>Learning Objectives</strong></h2>
+<p>Upon completing this chapter, you will be able to:
+*   Understand the fundamental rules of English grammar and their importance.
+*   Identify the eight parts of speech and their specific functions within a sentence.
+*   Apply the rules of subject-verb agreement and use verb tenses correctly.
+*   Recognize and correct common grammatical errors in sentence construction.
+*   Confidently solve error-spotting and sentence-correction questions in the exam.</p>
+<h2 id="exam-relevance"><strong>Exam Relevance</strong></h2>
+<ul>
+<li><strong>Mark Weight:</strong> High. Grammar is the backbone of the English language section. Expect 3-4 questions directly testing grammar rules through error spotting, fill-in-the-blanks, or sentence improvement formats.</li>
+<li><strong>Topic Category:</strong> English Language.</li>
+<li><strong>Importance:</strong> Critical. A strong foundation in grammar is essential not only for the direct questions but also for understanding Reading Comprehension passages and using vocabulary correctly.</li>
+</ul>
+<h2 id="detailed-theory-concepts"><strong>Detailed Theory / Concepts</strong></h2>
+<h3 id="why-grammar-matters"><strong>Why Grammar Matters</strong></h3>
+<p>Grammar provides the structure for our language. Correct grammar ensures that our communication is clear, professional, and unambiguous. In a medical setting like AIIMS, a grammatical error in a patient's report could potentially lead to misunderstanding. For the CRE, mastering grammar is essential for a high score in the English section.</p>
+<h3 id="the-eight-parts-of-speech"><strong>The Eight Parts of Speech</strong></h3>
+<p>Every word in a sentence has a job. The parts of speech are categories that tell us what job each word is doing.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Part of Speech</strong></th>
+<th style="text-align: left;"><strong>Function</strong></th>
+<th style="text-align: left;"><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>1. Noun</strong></td>
+<td style="text-align: left;">Names a person, place, thing, or idea.</td>
+<td style="text-align: left;">The <strong>social worker</strong> showed great <strong>compassion</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Pronoun</strong></td>
+<td style="text-align: left;">Replaces a noun to avoid repetition.</td>
+<td style="text-align: left;"><strong>She</strong> spoke to the patient after <strong>he</strong> arrived.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Verb</strong></td>
+<td style="text-align: left;">Shows an action or a state of being.</td>
+<td style="text-align: left;">The doctor <strong>examines</strong> the patient. The patient <strong>is</strong> calm.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Adjective</strong></td>
+<td style="text-align: left;">Describes a noun or pronoun.</td>
+<td style="text-align: left;">It was a <strong>difficult</strong> case. The patient felt <strong>anxious</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5. Adverb</strong></td>
+<td style="text-align: left;">Describes a verb, adjective, or another adverb.</td>
+<td style="text-align: left;">The nurse acted <strong>quickly</strong>. The patient was <strong>very</strong> weak.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>6. Preposition</strong></td>
+<td style="text-align: left;">Shows the relationship between words.</td>
+<td style="text-align: left;">The file is <strong>on</strong> the table <strong>in</strong> the office.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>7. Conjunction</strong></td>
+<td style="text-align: left;">Joins words, phrases, or clauses.</td>
+<td style="text-align: left;">The patient was tired <strong>but</strong> cooperative.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>8. Interjection</strong></td>
+<td style="text-align: left;">Expresses strong, sudden emotion.</td>
+<td style="text-align: left;"><strong>Alas!</strong> The first attempt at treatment failed.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sentence-structure-the-building-blocks"><strong>Sentence Structure: The Building Blocks</strong></h3>
+<p>A simple sentence has at least a subject and a verb.
+*   <strong>Subject:</strong> Who or what the sentence is about.
+*   <strong>Predicate:</strong> The part of the sentence containing the verb, which tells us what the subject is or does.
+    *   <em>Example:</em> <strong>The patient</strong> (Subject) <strong>slept</strong> (Predicate/Verb).
+    *   <em>Example:</em> <strong>The psychiatric social worker</strong> (Subject) <strong>conducted a detailed assessment</strong> (Predicate).</p>
+<h3 id="three-key-grammar-rules"><strong>Three Key Grammar Rules</strong></h3>
+<h4 id="1-subject-verb-agreement"><strong>1. Subject-Verb Agreement</strong></h4>
+<p>This is the most frequently tested grammar rule. The rule is simple:
+*   Singular subjects take singular verbs (usually ending in '-s').
+*   Plural subjects take plural verbs (usually without '-s').</p>
+<ul>
+<li><strong>Correct:</strong> The <strong>doctor writes</strong> a report. (Singular subject, singular verb)</li>
+<li><strong>Incorrect:</strong> The doctor write a report.</li>
+<li><strong>Correct:</strong> The <strong>doctors write</strong> reports. (Plural subject, plural verb)</li>
+<li><strong>Incorrect:</strong> The doctors writes reports.</li>
+</ul>
+<p><strong>Tricky Cases:</strong>
+*   <strong>Collective Nouns:</strong> Words like <em>team, committee, family, group</em> can be singular or plural. If they act as one unit, use a singular verb. If they act as individuals, use a plural verb.
+    *   <em>The team </em><em>is</em><em> ready for the presentation.</em> (The team as a single unit)
+*   <strong>Indefinite Pronouns:</strong> Pronouns like <em>each, every, everyone, anyone, no one</em> are always singular.
+    *   <em>Everyone </em><em>is</em><em> required to attend.</em></p>
+<h4 id="2-correct-verb-tenses"><strong>2. Correct Verb Tenses</strong></h4>
+<p>Tenses tell us when the action happened. Ensure the tense is consistent.
+*   <strong>Past:</strong> I <strong>saw</strong> the patient yesterday.
+*   <strong>Present:</strong> I <strong>see</strong> the patient every day.
+*   <strong>Future:</strong> I <strong>will see</strong> the patient tomorrow.</p>
+<p><strong>Common Error:</strong> Mixing tenses in a sentence.
+*   <strong>Incorrect:</strong> He <strong>came</strong> into the room and <strong>sits</strong> down.
+*   <strong>Correct:</strong> He <strong>came</strong> into the room and <strong>sat</strong> down.</p>
+<h4 id="3-articles-a-an-the"><strong>3. Articles (A, An, The)</strong></h4>
+<ul>
+<li><strong>A/An (Indefinite Articles):</strong> Used for general, non-specific nouns. 'A' is used before consonant sounds, 'An' before vowel sounds.<ul>
+<li><em>I need </em><em>a</em><em> pen.</em> (Any pen)</li>
+<li><em>She is </em><em>an</em><em> honest person.</em> ('Honest' starts with a vowel sound)</li>
+</ul>
+</li>
+<li><strong>The (Definite Article):</strong> Used for specific, particular nouns that have already been mentioned or are unique.<ul>
+<li><em>I need </em><em>the</em><em> pen that is on your desk.</em> (A specific pen)</li>
+</ul>
+</li>
+</ul>
+<h2 id="aiims-cre-oriented-tips-tricks"><strong>AIIMS CRE-Oriented Tips &amp; Tricks</strong></h2>
+<ul>
+<li>
+<p><strong>Spotting Errors:</strong> When you see a sentence broken into parts (A), (B), (C), (D), read it as a whole first. Then, check for the most common errors in this order:</p>
+<ol>
+<li><strong>Subject-Verb Agreement:</strong> Find the subject and verb. Do they match?</li>
+<li><strong>Tense Consistency:</strong> Are all the verbs in the correct and consistent tense?</li>
+<li><strong>Pronoun Errors:</strong> Does each pronoun agree with the noun it replaces? (e.g., "Everyone should bring <em>their</em> book" is technically incorrect in formal English, it should be "<em>his or her</em> book").</li>
+<li><strong>Preposition Errors:</strong> Is the correct preposition used? (e.g., <code>comply with</code>, not <code>comply to</code>).</li>
+</ol>
+</li>
+<li>
+<p><strong>Simplify the Sentence:</strong> If a sentence is long and confusing, mentally remove the extra phrases to find the core subject and verb.</p>
+<ul>
+<li><em>Example:</em> "The social worker, along with the entire team of doctors and nurses, <strong>is</strong> responsible for the patient's care." The subject is "social worker" (singular), so the verb is "is".</li>
+</ul>
+</li>
+</ul>
+<h2 id="practice-mcqs"><strong>Practice MCQs</strong></h2>
+<p><strong>Instructions:</strong> In questions 1-5, find the part of the sentence that has an error.</p>
+<ol>
+<li>
+<p><strong>(A) The team of researchers / (B) have been working tirelessly / (C) on a cure for the disease. / (D) No error.</strong>
+    a) A
+    b) B
+    c) C
+    d) D</p>
+</li>
+<li>
+<p><strong>(A) Each of the participants / (B) were given a certificate / (C) at the end of the workshop. / (D) No error.</strong>
+    a) A
+    b) B
+    c) C
+    d) D</p>
+</li>
+<li>
+<p><strong>(A) The patient complained of / (B) a severe pain in his chest, / (C) so the doctor immediately calls for a specialist. / (D) No error.</strong>
+    a) A
+    b) B
+    c) C
+    d) D</p>
+</li>
+<li>
+<p><strong>(A) Me and my colleague / (B) are scheduled to present / (C) the case study tomorrow. / (D) No error.</strong>
+    a) A
+    b) B
+    c) C
+    d) D</p>
+</li>
+<li>
+<p><strong>(A) This is an European country, / (B) but it is known for / (C) its diverse culture. / (D) No error.</strong>
+    a) A
+    b) B
+    c) C
+    d) D</p>
+</li>
+</ol>
+<p><strong>Instructions:</strong> In questions 6-10, fill in the blank with the most appropriate option.</p>
+<ol>
+<li>
+<p><strong>The committee ______ unable to agree on a course of action.</strong>
+    a) is
+    b) are
+    c) has
+    d) was</p>
+</li>
+<li>
+<p><strong>He is angry ______ his friend's behavior.</strong>
+    a) with
+    b) at
+    c) on
+    d) about</p>
+</li>
+<li>
+<p><strong>Neither the patient nor his relatives ______ been informed about the change.</strong>
+    a) has
+    b) have
+    c) is
+    d) were</p>
+</li>
+<li>
+<p><strong>A lot of work ______ still pending.</strong>
+    a) is
+    b) are
+    c) has
+    d) have</p>
+</li>
+<li>
+<p><strong>She is the one person ______ can truly help you.</strong>
+    a) which
+    b) who
+    c) whom
+    d) whose</p>
+</li>
+</ol>
+<h2 id="answer-key-with-explanations"><strong>Answer Key with Explanations</strong></h2>
+<ol>
+<li><strong>b) B:</strong> The error is in subject-verb agreement. The subject is "The team" (singular collective noun acting as a unit), so the verb should be singular: "has been working".</li>
+<li><strong>b) B:</strong> The subject is "Each" (singular indefinite pronoun), which always takes a singular verb. The verb should be "was given".</li>
+<li><strong>c) C:</strong> The error is in tense consistency. The first part of the sentence is in the past tense ("complained"). Therefore, the second verb should also be in the past tense: "called for".</li>
+<li><strong>a) A:</strong> The error is in pronoun case. When a pronoun is part of the subject, it should be in the subjective case ("I"). Also, it is polite to mention the other person first. The correct phrase is "My colleague and I".</li>
+<li><strong>a) A:</strong> The error is in the use of the article. "European" starts with a 'Y' sound (a consonant sound), not a vowel sound. Therefore, the correct article is "a European country".</li>
+<li><strong>b) are:</strong> Here, the "committee" members are acting as individuals (they are unable to agree), not as a single unit. Therefore, a plural verb "are" is appropriate.</li>
+<li><strong>b) at:</strong> The correct preposition is to be "angry at a thing" (like behavior) and "angry with a person". Since the object is "behavior", "at" is correct. However, "angry about" is also commonly used and accepted. In this context, "at" is the most precise choice. Let's re-evaluate. "Angry with" is used for people. "Angry at" is used for things, events, or situations. "Angry about" is also used for situations. "His friend's behavior" is a situation/thing. So "at" or "about" would be correct. Let's check common usage. "Angry at his behavior" is very common. "Angry about his behavior" is also common. Let's assume the question wants the most standard form. Let's check a grammar source. Fowler's Modern English Usage suggests 'at' for things and 'with' for people. So 'at' is the most formally correct.</li>
+<li><strong>b) have:</strong> In a "neither...nor" construction, the verb agrees with the subject closest to it. The subject closest to the verb is "relatives" (plural), so the plural verb "have" is correct.</li>
+<li><strong>a) is:</strong> "Work" is an uncountable noun, which is always treated as singular. Therefore, the correct verb is "is".</li>
+<li><strong>b) who:</strong> "Who" is the correct relative pronoun to use for a person when the person is the subject of the verb that follows ("who can help"). "Whom" is used when the person is the object.</li>
+</ol>
+<h2 id="chapter-summary-key-takeaways"><strong>Chapter Summary (Key Takeaways)</strong></h2>
+<ul>
+<li>Grammar provides the rules for clear and effective communication.</li>
+<li>The three most important rules to master for the exam are Subject-Verb Agreement, Verb Tense Consistency, and the correct use of Articles.</li>
+<li>Most errors in sentences can be found by first identifying the main subject and its corresponding verb.</li>
+<li>When practicing, adopt a systematic approach to error-spotting to improve both your accuracy and speed.</li>
+<li>A strong grammar foundation is the key to excelling in the entire English section.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../chapter_07/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 7: Analytical &amp;amp; Logical Reasoning Practice Sets">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Chapter 7: Analytical &amp; Logical Reasoning Practice Sets
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../chapter_09/" class="md-footer__link md-footer__link--next" aria-label="Next: Chapter 9: Vocabulary Building">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Chapter 9: Vocabulary Building
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  <div class="md-copyright__highlight">
+    A Project by Sarkari Mentor
+  </div>
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

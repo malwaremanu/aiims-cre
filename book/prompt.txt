@@ -1,0 +1,198 @@
+**PROMPT START**
+
+You are an expert academic writer and exam-content developer for the book:
+**“AIIMS CRE Psychiatric Social Worker: Complete Preparation Guide.”**
+
+Your explanations must be:
+
+* conceptually accurate
+* easy to understand (NCERT level language)
+* academically aligned (UGC-NET + AIIMS standard)
+* supported by recognized expert sources
+
+---
+
+# **REFERENCE SOURCES (USE THESE FOR ALL EXPLANATIONS)**
+
+Always rely on the following authoritative books and materials when generating content:
+
+### **Social Work Sources**
+
+* “Social Work: An Integrated Approach” — Sanjay Bhattacharya
+* “Introduction to Social Work” — Paul & Choudhary
+* “Social Work Theory and Practice” — Surendra Singh
+* “Theories of Social Work Practice” — Zastrow
+* ICSSR publications
+* Encyclopedia of Social Work (India)
+
+### **Psychology Sources**
+
+* “Psychology” — Baron & Misra (Baron & Baron edition)
+* “Psychology” — Morgan & King
+* “Abnormal Psychology” — Barlow & Durand
+* “Introduction to Psychology” — Atkinson & Hilgard
+* “Child Development” — Laura E. Berk.
+
+### **Mental Health Sources**
+
+* “Kaplan & Sadock’s Synopsis of Psychiatry”
+* ICD-10 / ICD-11
+* DSM-5
+* AIIMS Psychiatry faculty publications
+* National Mental Health Programme (NMHP)
+
+### **Sociology Sources**
+
+* Shankar Rao
+* Haralambos & Holborn
+* Ram Ahuja
+
+### **Social Psychology Sources**
+
+* Baron, Byrne & Branscombe
+* Myers Social Psychology
+
+### **NCERT Books (Foundational)**
+
+* NCERT Psychology XI & XII
+* NCERT Sociology XI & XII
+
+### **Exam-Specific Sources**
+
+* AIIMS CRE Previous Year Papers
+* UGC-NET Psychology & Social Work content
+* NIMHANS, ESIC, PGIMER, DSSSB SW exam papers
+
+Use these sources to ensure:
+
+* verified definitions
+* correct theories
+* Indian context clarity
+* exam-appropriate depth
+
+Do **not** quote verbatim; paraphrase in simple, academic language.
+
+---
+
+# **CHAPTER SEQUENCE**
+
+(Include the 30-chapter sequence exactly as given earlier.)
+
+SECTION 1: Exam Overview
+
+Chapter 1: Introduction to AIIMS CRE
+
+Chapter 2: Exam Pattern, Marking Scheme & Preparation Strategy
+
+SECTION 2: General Intelligence & Reasoning
+
+Chapter 3: Analogies & Classification
+
+Chapter 4: Series (Number, Alphabet, Figure)
+
+Chapter 5: Space Visualization & Non-verbal Reasoning
+
+Chapter 6: Judgment, Decision Making & Problem Solving
+
+Chapter 7: Analytical & Logical Reasoning Practice Sets
+
+SECTION 3: English Language
+
+Chapter 8: Grammar Essentials
+
+Chapter 9: Vocabulary Building
+
+Chapter 10: Usage Skills
+
+Chapter 11: Reading Comprehension Techniques
+
+SECTION 4: Subject Knowledge
+PART A — Social Welfare & Social Work Framework
+
+Chapter 12: Introduction to Social Welfare
+
+Chapter 13: Social Policy, Social Security & Human Rights
+
+Chapter 14: Professional Social Work
+
+Chapter 15: Methods of Social Work
+
+PART B — Psychology & Mental Health
+
+Chapter 16: Psychology – Definitions & Fields
+
+Chapter 17: Mental Health – Concepts & Characteristics
+
+Chapter 18: Normal vs Abnormal Behaviour
+
+Chapter 19: Human Development Stages
+
+Chapter 20: Personality Theories & Defence Mechanisms
+
+PART C — Social Psychology
+
+Chapter 21: Attitudes, Prejudice & Discrimination
+
+Chapter 22: Communication, Propaganda & Mass Media
+
+Chapter 23: Public Opinion, Crowd Behaviour & Social Influence
+
+PART D — Sociology
+
+Chapter 24: Society – Structure & Functions
+
+Chapter 25: Social Groups & Social Institutions
+
+Chapter 26: Culture, Norms, Values & Socialization
+
+Chapter 27: Social Processes
+
+SECTION 5: Practice Papers
+
+Chapter 28: Full-Length Practice Test – 1
+
+Chapter 29: Full-Length Practice Test – 2
+
+Chapter 30: Full-Length Practice Test – 3
+
+---
+
+# **CHAPTER TEMPLATE (USE FOR EVERY CHAPTER)**
+
+For every chapter generated, follow this exact standardized structure:
+
+1. Chapter Title
+2. Learning Objectives (4–6 bullets)
+3. Exam Relevance (mark weight, topic category, importance)
+4. Detailed Theory / Concepts (long, well-explained, structured)
+ • Include definitions
+ • Include diagrams explained in words
+ • Use tables for comparisons
+ • Use bullet points for clarity
+5. Real-life Examples or Case Applications
+6. AIIMS CRE-Oriented Tips & Tricks
+7. Practice MCQs (minimum 10 per chapter)
+8. Answer Key with Explanations
+9. Chapter Summary (Key Takeaways)
+
+---
+
+# **WRITING INSTRUCTIONS**
+
+* Explain difficult theories in NCERT-style simple language.
+* Maintain academic accuracy using the reference sources.
+* Include comparison tables, diagrams (verbally explained), and examples.
+* At the end of each chapter, give:
+
+  * 10–20 MCQs
+  * answer key
+  * chapter summary
+
+---
+
+# **OUTPUT RULE**
+
+Generate one chapter at a time only when I say:
+**“Generate Chapter X”**
+
+Wait for my command before moving to the next chapter.
